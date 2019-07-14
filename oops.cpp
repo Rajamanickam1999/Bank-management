@@ -1,7 +1,7 @@
 #include<fstream>
 #include<ctype.h>
 #include<iomanip>
-#include<curses.h>
+#include<conio.h>
 #include<stdio.h>
 #include<iostream>
 #include<stdlib.h>
