@@ -348,7 +348,7 @@ void deposit_withdraw(int n, int option)
 				else
 					ac.draw(amt);
 		      }
-			int pos=(-1)* sizeof(ac);
+			int pos=(-1)* sizeof(account);
 			File.seekp(pos,ios::cur);
 			File.write((char *) &ac, sizeof(account));
 			cout<<"\n\n\t Record Updated";
